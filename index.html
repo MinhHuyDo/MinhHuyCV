@@ -4,10 +4,11 @@
 <head></head>
 <body>
     <form action="save.php" method="POST">
-        <input type="hidden" name="_subject" value="Contact request from personal website" />
-        <input type="email" name="_replyto" placeholder="Your email" required>
-        <textarea name="message" placeholder="Type your message" required></textarea>
-        <button type="submit">Send</button>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
